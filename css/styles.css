@@ -643,6 +643,56 @@ img {
 .social-link:focus .footer-icon {
   fill: var(--white-color);
 }
+
+.footer-form {
+  margin-left: 80px;
+  margin-right: 12px;
+}
+
+.footer-input {
+  width: 358px;
+  height: 50px;
+
+  background-color: var(--background-dark);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+.footer-form-btn {
+  min-width: 200px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+
+  cursor: pointer;
+
+  border-radius: 4px;
+  border: transparent;
+
+  background-color: var(--accent-primary);
+  color: var(--white-color);
+}
+
+.footer-form-description {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--white-color);
+
+  margin-bottom: 20px;
+}
+
+/* ============ END FOOTER ============= */
+
 /* ======= PORFOLIO PAGE =============== */
 
 /* ======= PORTFOLIO SECTION ======= */
